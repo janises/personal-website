@@ -1,0 +1,32 @@
+#about {
+  /* background-color: #57482C; */
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  /* background-image: url('../../assets/img/sipyen_bridge.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10vh 10vw;
+  overflow: hidden;
+}
+
+.about-img {
+  width: 50vw;
+  overflow-y: hidden;
+  border-radius: 3px;
+}
+
+.about-text {
+  /* border: 1px solid black; */
+  /* background-color: #A5B4D1; */
+  background-color: whitesmoke;
+  opacity: 0.75;
+  border-radius: 3px;
+  width: 25vw;
+  padding: 12px 12px;
+}

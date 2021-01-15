@@ -1,0 +1,27 @@
+.main-navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.list-item {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.active {
+  /* color: white; */
+  text-decoration: underline;
+}
+
+.link {
+  color: #000;
+}

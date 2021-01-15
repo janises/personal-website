@@ -1,0 +1,42 @@
+#skills {
+  background-color: whitesmoke;
+  height: 100vh;
+  width: 100vw;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #22271D;
+  overflow: hidden;
+}
+
+.skills-header {
+  margin-bottom: 50px;
+  overflow-y: hidden;
+}
+
+.skills-list {
+  width: 40vw;
+  overflow-y: hidden;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.star {
+  height: 25px;
+  margin-left: 5px;
+}
+
+.star-rating {
+  justify-self: flex-end;
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 18px;
+}

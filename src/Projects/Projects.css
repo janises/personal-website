@@ -1,0 +1,41 @@
+#projects {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  width: 100vw;
+  padding: 80px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-header {
+  margin-bottom: 40px;
+  overflow-y: hidden;
+}
+
+.project-container {
+  width: 75vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 36px;
+}
+
+.project-description {
+  width: 30vw;
+  line-height: 20px;
+  overflow-y: hidden;
+}
+
+.project-img {
+  width: 400px;
+  border-radius: 2px;
+}
+
+.project-img:hover {
+  cursor: pointer;
+}
+
+.project-link {
+  color: black;
+}

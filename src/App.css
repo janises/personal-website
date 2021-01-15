@@ -1,0 +1,11 @@
+.fixed {
+  position: fixed;
+  width: 100vw;
+}
+
+.header {
+  padding: 24px 24px;
+  background-color: whitesmoke;
+  opacity: 0.5;
+  z-index: 100;
+}

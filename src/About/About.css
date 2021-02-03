@@ -1,5 +1,8 @@
 #about {
-  background-color: #b6e5fd;
+  /* background-color: #b6e5fd; */
+  background: rgb(182,229,253);
+  background: linear-gradient(180deg, rgba(182,229,253,1) 30%, rgba(191,177,213,1) 100%);
+  /* background-color: rgba(191,177,213,1); */
   min-height: 100vh;
   width: 100vw;
   display: flex;
@@ -7,6 +10,28 @@
   align-items: center;
   padding: 10vh 10vw;
   overflow: hidden;
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(182,229,253, 0.5);
+  /* background: linear-gradient(180deg, rgba(182,229,253,1) 66%, rgba(191,177,213,1) 100%); */
+  /* clip-path: polygon(45% 100%, 0 0, 100% 0);  */
+  /* clip-path: polygon(49% 75%, 0 0, 100% 0); */
+  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+  /* clip-path: polygon(0 0, 100% 1%, 92% 85%, 6% 85%); */
+  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+  clip-path: polygon(0 1%, 100% 0, 0 100%, 0% 100%);
+
+}
+
+.about-header {
+  position: relative;
 }
 
 .about-body {
@@ -14,6 +39,7 @@
   justify-content: space-between;
   margin-top: 20px;
   width: 100%;
+  position: relative;
 }
 
 .about-img {
@@ -21,6 +47,7 @@
   overflow-y: hidden;
   box-shadow: 0 8px 6px 6px grey;
   border-radius: 5px;
+  /* position: absolute; */
 }
 
 .about-text {

@@ -4,7 +4,8 @@ import './About.css';
 function About() {
   return (
     <div id="about">
-      <h1>What I&apos;ve Been Doing</h1>
+      <div className="triangle" />
+      <h1 className="about-header">What I&apos;ve Been Doing</h1>
       <div className="about-body">
         <div className="about-text">
           {/* eslint-disable max-len */}

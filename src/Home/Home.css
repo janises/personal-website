@@ -9,18 +9,27 @@
   background-size: cover;
 }
 
+.name {
+  position: absolute;
+  top: 20vh;
+  right: 25vw;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 36px;
+}
+
 .intro {
-  width: 25vw;
+  width: 23vw;
   border: 1px solid 153438;
   border-radius: 3px;
-  background-color: #BDCED5;
-  opacity: 0.9;
+  /* background-color: #BDCED5; */
+  /* opacity: 0.9; */
   overflow: hidden;
   position: absolute;
-  right: 15vw;
-  top: 45vh;
+  right: 32vw;
+  top: 34vh;
   padding: 12px 12px;
   font-size: 18px;
+  line-height: 1.5em;
 }
 
 .img-container {

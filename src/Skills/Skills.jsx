@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+
 import React from 'react';
 import './Skills.css';
 
@@ -42,9 +44,20 @@ function Skills() {
 
   return (
     <div id="skills">
-      <h1 className="skills-header">Skills</h1>
-      <div className="skills-list">
-        {skillsList}
+      <h1 className="skills-header">Stuff I Know</h1>
+      <div className="skills-body">
+        <div className="skills-list">
+          {skillsList}
+        </div>
+        <div className="skills-description">
+          <p>
+            I&apos;ve been working on front end projects for the past three years. I definitely don&apos;t claim to be an expert in any of these skills and I have a lot to learn, but have given 5 stars to the technologies that I work with the most. I&apos;m trying this strange concept of being confident in my abilities. I have done multiple full stack projects, and I have some familiarity with back end technologies. I hope to do some more work with databases, servers, and sockets soon. I also enjoy making simple browser games, and am excited to learn more about them.
+          </p>
+          <br />
+          <p>
+            Other skills I have include archery, knitting, scuba diving, and binge watching TV shows for days at a time.
+          </p>
+        </div>
       </div>
     </div>
   );

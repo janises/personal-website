@@ -5,7 +5,11 @@
 
 .header {
   padding: 24px 24px;
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245, 0.5);
   opacity: 0.5;
   z-index: 100;
+}
+
+div, p, h1, li {
+  font-family: 'Open Sans', sans-serif;
 }

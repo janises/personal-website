@@ -1,5 +1,5 @@
 #contact {
-  background-color: whitesmoke;
+  background-color: #fed1be;
   height: 95vh;
   width: 100vw;
   padding: 80px 24px;
@@ -18,23 +18,44 @@ form {
   overflow-y: hidden;
 }
 
-.contact-styles {
-  background-color: whitesmoke;
+.contact-body {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 100px;
+}
+
+.contact-description {
+  font-size: 18px;
+  line-height: 1.618em;
+  width: 25vw;
+}
+
+.contact-form-styles {
+  background-color: #fed1be;
   outline: none;
-  width: 35vw;
+  width: 30vw;
   margin-bottom: 36px;
+  font-size: 18px;
+}
+
+::placeholder {
+  opacity: 0.45;
 }
 
 .contact-input {
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 #message {
   height: 25vh;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 3px;
-  padding: 4px 4px;
+  padding: 8px 8px;
+  line-height: 1.5em;
 }
 
 .contact-submit {
@@ -42,5 +63,22 @@ form {
   cursor: pointer;
   border: 2px solid black;
   border-radius: 3px;
-  /* background-color: whitesmoke; */
+  background-color: #fed1be;
+  font-size: 18px;
+}
+
+.contact-submit:hover {
+  background-color: #FDAD8C;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.social-buttons {
+  height: 30px;
+  margin-left: 16px;
+  cursor: pointer;
 }

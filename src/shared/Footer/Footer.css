@@ -1,18 +1,8 @@
 #footer {
   height: 5vh;
   width: 100vw;
-  background-color: whitesmoke;
+  background-color: #fed1be;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.copyright {
-
-}
-
-.social-media {
-  height: 25px;
-  margin-left: 8px;
-  cursor: pointer;
 }

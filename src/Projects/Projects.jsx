@@ -5,8 +5,8 @@ import React from 'react';
 import './Projects.css';
 
 function Projects() {
-  const clickHandler = () => {
-    window.open('https://pennyandthejetsgame.herokuapp.com/', '_blank', 'noopener,noreferrer');
+  const clickHandler = (link) => {
+    window.open(link, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -18,7 +18,7 @@ function Projects() {
             alt="penny and the jets game"
             className="project-img"
             src="../../assets/img/pennyandthejets.png"
-            onClick={clickHandler}
+            onClick={() => clickHandler('https://pennyandthejetsgame.herokuapp.com/')}
           />
           <div className="project-description">
             <a
@@ -37,7 +37,7 @@ function Projects() {
         <div className="project-card">
           <iframe
             title="black canary safety app walkthrough"
-            width="400"
+            width="350"
             height="215"
             src="https://www.youtube.com/embed/cw8VR4JNrwk"
             frameBorder="0"
@@ -56,6 +56,27 @@ function Projects() {
             </a>
             &nbsp;
             is a mobile-responsive web app designed for user safety that I collaborated on. Features allow the user to set a specific message for their emergency message, as well as send their location to friends for a specified length of time. We chose the name Black Canary because the DC Comics character Black Canary&apos;s super power is her Canary Cry, which renders her attackers incapacitated. Built with React, Redux, Node, Express, PostgreSQL, Sass, Greensock Animations, Google Maps API, and Socket.io.
+          </div>
+        </div>
+        <div className="project-card">
+          <img
+            alt="marvel-game"
+            className="project-img"
+            src="../../assets/img/ant-man-game.png"
+            onClick={() => clickHandler('https://github.com/janises/marvel-lookup-antman-game')}
+          />
+          <div className="project-description">
+            <a
+              className="project-link"
+              href="https://github.com/janises/marvel-lookup-antman-game"
+              target="_blank"
+              noopener
+              rel="noreferrer"
+            >
+              Marvel character look up
+            </a>
+            &nbsp;
+            is a project I created using JavaScript, React, Sass, axios, and md5. There are several options the user can choose. The first is a Marvel character look up using the Marvel API. The second is a game that features feminist Ant-Man and his fight against the patriarchy. The simple game is built without the use of a third party game animation library. There is also an Easter Egg that features Ron Swanson quotes.
           </div>
         </div>
       </div>

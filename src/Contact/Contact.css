@@ -1,5 +1,6 @@
 #contact {
-  background-color: #fed1be;
+  /* background-color: #fed1be; */
+  background-color: #282828;
   height: 95vh;
   width: 100vw;
   padding: 80px 24px;
@@ -16,11 +17,12 @@ form {
 .contact-header {
   margin-bottom: 40px;
   overflow-y: hidden;
+  color: whitesmoke;
 }
 
 .contact-body {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
@@ -31,14 +33,19 @@ form {
   font-size: 18px;
   line-height: 1.618em;
   width: 25vw;
+  color: #f5f5f59c;
+  text-align: center;
+  margin-right: 75px;
 }
 
 .contact-form-styles {
-  background-color: #fed1be;
+  background-color: #282828;
   outline: none;
   width: 30vw;
   margin-bottom: 36px;
   font-size: 18px;
+  color: #f5f5f59c;
+  padding: 4px 8px;
 }
 
 ::placeholder {
@@ -47,12 +54,12 @@ form {
 
 .contact-input {
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #f5f5f59c;
 }
 
 #message {
   height: 25vh;
-  border: 1px solid black;
+  border: 1px solid #f5f5f59c;
   border-radius: 3px;
   padding: 8px 8px;
   line-height: 1.5em;
@@ -61,14 +68,15 @@ form {
 .contact-submit {
   height: 40px;
   cursor: pointer;
-  border: 2px solid black;
+  border: 2px solid #f5f5f59c;
   border-radius: 3px;
-  background-color: #fed1be;
+  background-color: #282828;
   font-size: 18px;
+  color: #f5f5f59c;
 }
 
 .contact-submit:hover {
-  background-color: #FDAD8C;
+  background-color: #1f1e1e;
 }
 
 .social-container {

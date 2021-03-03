@@ -1,8 +1,10 @@
 #footer {
   height: 5vh;
   width: 100vw;
-  background-color: #fed1be;
+  /* background-color: #fed1be; */
+  background-color: #282828;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: whitesmoke;
 }

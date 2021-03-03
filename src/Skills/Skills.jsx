@@ -51,11 +51,15 @@ function Skills() {
         </div>
         <div className="skills-description">
           <p>
-            I&apos;ve been working on front end projects for the past three years. I definitely don&apos;t claim to be an expert in any of these skills and I have a lot to learn, but have given 5 stars to the technologies that I work with the most. I&apos;m trying this strange concept of being confident in my abilities. I have done multiple full stack projects, and I have some familiarity with back end technologies. I hope to do some more work with databases, servers, and sockets soon. I also enjoy making simple browser games, and am excited to learn more about them.
+            I&apos;ve been working on front end projects for the past three years. I definitely don&apos;t claim to be an expert in any of these skills and I have a lot to learn, but have given 5 stars to the technologies that I work with the most. I&apos;m trying this strange concept of being confident in my abilities.
           </p>
           <br />
           <p>
-            Other skills I have include archery, knitting, scuba diving, and binge watching TV shows for days at a time.
+            While I currently work as a front end developer, I have some familiarity with back end technologies and have worked on multiple full stack projects. I hope to do some more work with databases, servers, APIs, and sockets soon. I also enjoy making simple browser games, and am excited to learn more about them.
+          </p>
+          <br />
+          <p>
+            Other skills I have include archery, knitting, scuba diving, playing the ukulele, and binge watching TV shows for days at a time.
           </p>
         </div>
       </div>

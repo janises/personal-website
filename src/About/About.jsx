@@ -5,20 +5,47 @@ function About() {
   return (
     <div id="about">
       {/* <div className="triangle" /> */}
-      <h1 className="about-header">What I&apos;ve Been Doing</h1>
+      <h1 className="about-header">ABOUT ME</h1>
       <div className="about-body">
+        <img
+          alt="sipyen bridge, kosrae"
+          className="about-img"
+          src="../../assets/img/sipyen_bridge.jpg"
+        />
         <div className="about-text">
           {/* eslint-disable max-len */}
           <p>
-            I spent my undergrad at Cal State Fullerton, double majoring in Psychology and Sociology, competing in intramural archery tournaments, and writing my thesis on the difference between male and female serial killers in America.
-          </p>
-          <br />
-          <p>
-            Following graduation, I served as a Peace Corps Volunteer for twenty-seven months in the country of Micronesia on the island of Kosrae. I taught English to 3rd and 4th graders, established the first recycling program, and reorganized the library system at the school. Every summer, the other volunteers and I would host girls&apos; camps where rising freshmen from the different villages on the island could have fun and learn about feminism, nutrition, health, and safety. I learned how to speak the local language, earned my rescue diver license, and climbed mountains barefoot.
-          </p>
-          <br />
-          <p>
-            After returning to California, I enrolled in a web development bootcamp in Provo, Utah. Upon completion of the program, I was offered a job at&nbsp;
+            After graduating from Cal State Fullerton with B.A.s in Psychology and Sociology, I joined the&nbsp;
+            <a
+              className="link"
+              href="https://www.peacecorps.gov/"
+              target="_blank"
+              noopener
+              rel="noreferrer"
+            >
+              Peace Corps
+            </a>
+            , where I taught English for two years in the&nbsp;
+            <a
+              className="link"
+              href="https://www.britannica.com/place/Micronesia-republic-Pacific-Ocean"
+              target="_blank"
+              noopener
+              rel="noreferrer"
+            >
+              Federated States of Micronesia
+            </a>
+            &nbsp;(on the Island of Kosrae). When I finished my service, I attended a web development bootcamp at&nbsp;
+            <a
+              className="link"
+              href="https://devmountain.com/"
+              target="_blank"
+              noopener
+              rel="noreferrer"
+            >
+              DevMountain
+            </a>
+            . I was offered a job at&nbsp;
             <a
               className="link"
               href="www.joinhoney.com"
@@ -28,14 +55,19 @@ function About() {
             >
               Honey
             </a>
-            , where I continue to work as a software engineer and co-founded the first LGBTQ+ employee resource group, Pride@Honey.
+            , where I worked as a software engineer and co-founded the first LGBTQ+ employee resource group, Pride@Honey. After about three years, I moved on to&nbsp;
+            <a
+              className="link"
+              href="www.pluralsight.com/"
+              target="_blank"
+              noopener
+              rel="noreferrer"
+            >
+              Pluralsight
+            </a>
+            &nbsp;where I currently work as a software engineer.
           </p>
         </div>
-        <img
-          alt="sipyen bridge, kosrae"
-          className="about-img"
-          src="../../assets/img/sipyen_bridge.jpg"
-        />
       </div>
     </div>
   );

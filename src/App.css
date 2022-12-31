@@ -5,8 +5,7 @@
 
 .header {
   padding: 24px 24px;
-  background-color: rgb(245, 245, 245, 0.5);
-  opacity: 0.5;
+  background-color: #f6f6f6;
   z-index: 100;
 }
 

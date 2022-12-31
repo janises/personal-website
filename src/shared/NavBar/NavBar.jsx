@@ -5,9 +5,6 @@ import './NavBar.css';
 function NavBar() {
   const links = {
     home: '#home',
-    about: '#about',
-    skills: '#skills',
-    projects: '#projects',
     contact: '#contact',
   };
 

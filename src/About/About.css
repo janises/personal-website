@@ -1,14 +1,4 @@
 #about {
-  /* background-color: #b6e5fd; */
-  /* background-color: #57482C; */
-  /* background-color: #282828; */
-background-color: #52351b;
-
-  /* background: rgb(182,229,253); */
-  /* background: linear-gradient(180deg, rgba(182,229,253,1) 30%, rgba(191,177,213,1) 100%); */
-  /* background-color: rgba(191,177,213,1); */
-  min-height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,26 +7,9 @@ background-color: #52351b;
   position: relative;
 }
 
-.triangle {
-  position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: rgb(182,229,253, 0.5);
-  /* background: linear-gradient(180deg, rgba(182,229,253,1) 66%, rgba(191,177,213,1) 100%); */
-  /* clip-path: polygon(45% 100%, 0 0, 100% 0);  */
-  /* clip-path: polygon(49% 75%, 0 0, 100% 0); */
-  /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
-  /* clip-path: polygon(0 0, 100% 1%, 92% 85%, 6% 85%); */
-  /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
-  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
-  clip-path: polygon(0 1%, 100% 0, 0 100%, 0% 100%);
-
-}
-
 .about-header {
   position: relative;
-  color: #f5f5f5d1;
+  color: #1b1b1b;
 }
 
 .about-body {
@@ -50,9 +23,7 @@ background-color: #52351b;
 .about-img {
   width: 37vw;
   overflow-y: hidden;
-  /* box-shadow: 0 8px 6px 6px grey; */
   border-radius: 5px;
-  /* position: absolute; */
   margin-left: 75px;
 }
 
@@ -61,11 +32,10 @@ background-color: #52351b;
   padding: 12px 12px;
   line-height: 1.618em;
   font-size: 16px;
-  /* background-color: #fffdfd38; */
   border-radius: 3px;
-  color: #f5f5f59c;
+  color: #1b1b1b;
 }
 
 a.link {
-  color: #f5f5f59c;
+  color: #1b1b1b;
 }

@@ -18,12 +18,12 @@ function Projects() {
             alt="penny and the jets game"
             className="project-img"
             src="../../assets/img/pennyandthejets.png"
-            onClick={() => clickHandler('https://pennyandthejetsgame.herokuapp.com/')}
+            onClick={() => clickHandler('https://github.com/janises/PennyAndTheJets')}
           />
           <div className="project-description">
             <a
               className="project-link"
-              href="https://pennyandthejetsgame.herokuapp.com/"
+              href="https://github.com/janises/PennyAndTheJets"
               target="_blank"
               noopener
               rel="noreferrer"
@@ -47,7 +47,7 @@ function Projects() {
           <div className="project-description">
             <a
               className="project-link"
-              href="https://blackcanarysafetyapp.herokuapp.com/"
+              href="https://github.com/blackcanary-dm26/black-canary-web-app"
               target="_blank"
               noopener
               rel="noreferrer"

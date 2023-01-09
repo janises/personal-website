@@ -24,7 +24,8 @@
 }
 
 .home-img {
-  height: calc((100vw - 48px)/1.3333333333333333);
+  /* height: calc((100vw - 48px)/1.3333333333333333);
   max-height: 500px;
-  width: auto;
+  width: auto; */
+  max-width: 100%;
 }

@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React from 'react';
+import Mailchimp from 'react-mailchimp-form';
 import './Contact.css';
 
 function Contact() {
@@ -37,40 +38,34 @@ function Contact() {
             />
           </div>
         </div>
-        <form onSubmit={handleSubmit}>
-          <label>
-            <input
-              className="contact-input contact-form-styles"
-              type="text"
-              id="email"
-              name="email"
-              placeholder="Email"
-            />
-          </label>
-          <label>
-            <input
-              className="contact-input contact-form-styles"
-              type="text"
-              id="subject"
-              name="subject"
-              placeholder="Subject"
-            />
-          </label>
-          <label>
-            <textarea
-              className="contact-form-styles"
-              type="text"
-              id="message"
-              name="message"
-              placeholder="Message"
-            />
-          </label>
-          <input
-            className="contact-submit"
-            type="submit"
-            value="Send"
-          />
-        </form>
+        <Mailchimp
+          action="https://gmail.us21.list-manage.com/subscribe/post?u=82718a507e3d43864dc03ef9b&amp;id=52e01ad796&amp;f_id=00dfd2e1f0"
+          fields={[
+            {
+              name: 'EMAIL',
+              placeholder: 'Email',
+              type: 'email',
+              required: true,
+            },
+            {
+              name: 'MESSAGE',
+              placeholder: 'Message',
+              type: 'message',
+              required: true,
+            },
+          ]}
+          messages={
+            {
+              sending: 'Sending...',
+              success: 'Thank you for reaching out!',
+              error: 'An unexpected internal error has occurred.',
+              empty: 'You must write a message.',
+              duplicate: 'Too many emaail attempts for this email address',
+              button: 'Contact me!',
+            }
+          }
+          className="MailchimpStyle"
+        />
       </div>
     </div>
   );

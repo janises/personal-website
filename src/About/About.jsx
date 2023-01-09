@@ -4,7 +4,6 @@ import './About.css';
 function About() {
   return (
     <div id="about">
-      {/* <div className="triangle" /> */}
       <h1 className="about-header">ABOUT ME</h1>
       <div className="about-body">
         <img
@@ -12,6 +11,7 @@ function About() {
           className="about-img"
           src="../../assets/img/sipyen_bridge.jpg"
         />
+        <h2 className="about-background">MY BACKGROUND</h2>
         <div className="about-text">
           {/* eslint-disable max-len */}
           <p>
@@ -67,6 +67,32 @@ function About() {
             </a>
             &nbsp;where I currently work as a software engineer.
           </p>
+        </div>
+        <div className="hobbies-and-favorites-container">
+          <div className="hobbies-and-favorites">
+            <img
+              className="about-img"
+              alt="janise doing archery"
+              src="../../assets/img/archery.jpg"
+            />
+            <h2 className="about-background">MY HOBBIES</h2>
+            <div className="about-text">
+              <p>
+                I am a bit of a hobby collector. I like learning random things. I am not good at any of them, but that&apos;s okay. Here are a few of the things I&apos;ve been learning: ocarina, kalimba, Rubik&apos;s cube, lock picking, sewing, foreign languages, ukulele, piano, archery, scuba, drawing, etc.
+              </p>
+            </div>
+          </div>
+          <div className="hobbies-and-favorites">
+            <img
+              className="about-img"
+              alt="mac the dog"
+              src="../../assets/img/mac.jpeg"
+            />
+            <h2 className="about-background">MY FAVORITE THINGS</h2>
+            <div className="about-text">
+              <p>My dog Mac is my favorite. We named him after my favorite band, Fleetwood Mac. We adopted him in September 2021 when he was about 2 or 3 years old. I also really love books, tv shows, musicals, and video games.</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

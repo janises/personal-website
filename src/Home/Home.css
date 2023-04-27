@@ -5,7 +5,6 @@
   padding: 0 100px;
 }
 
-
 .name {
   font-family: 'Roboto', sans-serif;
   font-size: 28px;
@@ -24,8 +23,33 @@
 }
 
 .home-img {
-  /* height: calc((100vw - 48px)/1.3333333333333333);
-  max-height: 500px;
-  width: auto; */
   max-width: 100%;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #home {
+    padding: 0;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #home {
+    padding: 0;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #home {
+    padding: 0 100px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #home {
+    margin: auto 10%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

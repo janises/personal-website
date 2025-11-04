@@ -60,7 +60,7 @@ function Contact() {
               success: 'Thank you for reaching out!',
               error: 'An unexpected internal error has occurred.',
               empty: 'You must write a message.',
-              duplicate: 'Too many emaail attempts for this email address',
+              duplicate: 'Too many email attempts for this email address',
               button: 'Contact me!',
             }
           }

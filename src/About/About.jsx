@@ -78,7 +78,7 @@ function About() {
             <h2 className="about-hobbies">MY HOBBIES</h2>
             <div className="hobbies-text">
               <p>
-                I am a bit of a hobby collector. I like learning random things. I am not good at any of them, but that&apos;s okay. Here are a few of the things I&apos;ve been learning: ocarina, kalimba, Rubik&apos;s cube, lock picking, sewing, foreign languages, ukulele, piano, archery, scuba, drawing, etc.
+                I am a bit of a hobby collector. I like learning random things. I am not good at any of them, but that&apos;s okay. Here are a few of the things I&apos;ve been learning: ocarina, kalimba, Rubik&apos;s cube, lock picking, sewing, crocheting, foreign languages, American Sign Language, ukulele, piano, shamisen, archery, scuba, drawing, etc.
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ function About() {
             />
             <h2 className="about-hobbies">MY FAVORITE THINGS</h2>
             <div className="hobbies-text">
-              <p>My dog Mac is my favorite. We named him after my favorite band, Fleetwood Mac. We adopted him in September 2021 when he was about 2 or 3 years old. I also really love books, tv shows, musicals, and video games.</p>
+              <p>My dog Mac is my favorite. We named him after my favorite band, Fleetwood Mac. I adopted him in September 2021 when he was about 2 or 3 years old. I also really love books, tv shows, musicals, and video games.</p>
             </div>
           </div>
         </div>

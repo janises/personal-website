@@ -65,7 +65,7 @@ function About() {
             >
               Pluralsight
             </a>
-            &nbsp;where I currently work as a software engineer.
+            &nbsp;where I have been working as a software engineer since 2021.
           </p>
         </div>
         <div className="hobbies-and-favorites-container">
@@ -90,7 +90,7 @@ function About() {
             />
             <h2 className="about-hobbies">MY FAVORITE THINGS</h2>
             <div className="hobbies-text">
-              <p>My dog Mac is my favorite. We named him after my favorite band, Fleetwood Mac. I adopted him in September 2021 when he was about 2 or 3 years old. I also really love books, tv shows, musicals, and video games.</p>
+              <p>My dog Mac is my favorite. I named him after my favorite band, Fleetwood Mac. He was adopted in September 2021 when he was about 2 or 3 years old. I also really love books, tv shows, musicals, and video games.</p>
             </div>
           </div>
         </div>

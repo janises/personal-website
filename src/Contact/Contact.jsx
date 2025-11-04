@@ -6,10 +6,6 @@ import Mailchimp from 'react-mailchimp-form';
 import './Contact.css';
 
 function Contact() {
-  const handleSubmit = () => {
-    console.log('submitted form');
-  };
-
   const handleClick = (link) => {
     window.open(link, '_blank', 'noopener,noreferrer');
   };

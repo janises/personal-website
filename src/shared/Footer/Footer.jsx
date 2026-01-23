@@ -22,7 +22,7 @@ function Footer() {
           onClick={() => handleClick('https://www.linkedin.com/in/janise-suski/')}
         />
       </div>
-      <div>Copyright &copy; 2025 Janise Suski - All Rights Reserved </div>
+      <div>Copyright &copy; 2026 Janise Suski - All Rights Reserved </div>
     </div>
   );
 }

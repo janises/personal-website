@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Janise Suski's Personal Portfolio Site",
   "main": ".index.js",
   "babel": {

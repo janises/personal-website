@@ -90,7 +90,7 @@ function About() {
             />
             <h2 className="about-hobbies">MY FAVORITE THINGS</h2>
             <div className="hobbies-text">
-              <p>My dog Mac is my favorite. I named him after my favorite band, Fleetwood Mac. I also really love books, tv shows, musicals, and video games.</p>
+              <p>My dog Mac. I named him after my favorite band, Fleetwood Mac. I also really love books, tv shows, musicals, and video games.</p>
             </div>
           </div>
         </div>

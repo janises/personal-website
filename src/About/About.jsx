@@ -72,8 +72,8 @@ function About() {
           <div className="hobbies-and-favorites">
             <img
               className="hobby-img"
-              alt="janise doing archery"
-              src="../../assets/img/archery.jpg"
+              alt="janise drawing"
+              src="../../assets/img/drawing.jpg"
             />
             <h2 className="about-hobbies">MY HOBBIES</h2>
             <div className="hobbies-text">
